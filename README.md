@@ -18,9 +18,9 @@ The dataset includes the following files:
     transformations performed to clean the data, although most of this
     is done below and with comments in `runAnalysis.R`.
 
--   `dataSummary.csv`: Summary of the test data, with a header row. A
-    181 × 68 file containing the averages of each variable for each
-    activity and each subject.
+-   `dataSummary.csv`: Summary of the data, with a header row. A 181 ×
+    68 file containing the averages of each variable for each activity
+    and each subject.
 
 Briefly, `runAnalysis.R` does the following:
 
@@ -31,8 +31,8 @@ Briefly, `runAnalysis.R` does the following:
     columns with “mean()” and “std()” are selected. For the Y files,
     activity numbers are converted to activity names.
 
--   Merges the data frames for training and testing subjects into single
-    frames.
+-   Merges the data frames for training and testing subjects into
+    individual frames.
 
 -   Merges the two data frames resulting from the previous step into a
     single frame.
